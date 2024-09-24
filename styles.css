@@ -1,0 +1,224 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    background-color: #183501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+
+}
+
+
+
+.project-heading {
+    font-family: cursive;
+    font-size: large;
+    height: 20px;
+    width: 100%;
+    color: #ca621d;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+
+.tablet-view-container {
+    background-image: url('public/images/validator_wallpaper.png');
+    background-size: cover;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin: 40px auto;
+    border: 15px solid black;
+    padding-bottom: 10px; 
+    position: relative;
+    
+}
+
+
+
+
+.tablet-camera-safezone {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 0%;
+    position: absolute;
+
+}
+
+
+.camera-placeholders {
+    background-color: rgb(189, 188, 187);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+.heading {
+    font-family: cursive;
+    font-size: medium;
+    width: 100%;
+    color: #ca621d;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+
+.intro {
+    font-family: cursive;
+    font-size: medium;
+    width: 100%;
+    color: #e6d3c7;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: sticky;
+    
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .flex-column-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    
+  }
+
+
+.bottom-position {
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;  
+    text-align: center; 
+    
+}
+
+
+.input-container {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-content: bottom;
+    align-items: bottom;
+    background-color: #e6d3c7;
+}
+
+
+.input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+button {
+    padding: 15px 20px;
+    margin: 5px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+    position: relative;
+}
+
+
+
+#user-input {
+    padding: 10px 20px;
+    height: 10px;
+    margin: 10px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+#results-div {
+    font-size: small;
+    margin-top: 20px;
+    font-weight: bold;
+    color:rgb(243, 23, 23)
+}
+
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+   
+}
+
+/* added .nav-list merely for added fluff, no actions tied to it
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.nav-menu {
+    color: #ca621d;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+
+.nav-clear {
+    color: #ca621d;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    size:  small;
+}
+
+
+.nav-back {
+    color: #ca621d;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+
+.nav-item :hover {
+    background-color: burlywood;
+    border-radius: 4px;
+}
